@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
     name='collective.js.speakjs',
     version='1.0.0',
-    description='Text-To-Speech on the Web',
+    description='Text-to-Speech in JavaScript using eSpeak',
     long_description=(open('README.txt').read() + '\n' +
                       open('CHANGES.txt').read()),
     # Get more strings from
@@ -14,7 +14,7 @@ setup(
     keywords='',
     author='Asko Soukka',
     author_email='asko.soukka@iki.fi',
-    url='https://github.com/datakurre/collective.js.speakjs/',
+    url='https://github.com/collective/collective.js.speakjs/',
     license='GPL3',
     packages=find_packages('src', exclude=['ez_setup']),
     package_dir={'': 'src'},
