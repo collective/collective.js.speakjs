@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='collective.js.speakjs',
-    version='1.0.0',
+    version='1.0.1.dev0',
     description='Text-to-Speech in JavaScript using eSpeak',
     long_description=(open('README.txt').read() + '\n' +
                       open('CHANGES.txt').read()),
